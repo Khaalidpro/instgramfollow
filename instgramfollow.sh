@@ -160,8 +160,9 @@ printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] Saved:\e[0m\e[1;93m %s/videos/\e[0
 increase_followers() {
 
 printf "\n"
-printf "  \e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] Hawlkaan waa mid aad ku badinaysid insFollowers\e[0m\n"
-printf "  \e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] wuxuu awwod u leeyahay in uu 30d ilaa 1saac follow kugu siiyo \e[0m\n"
+printf "  \e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] Hawshaan intay socoto waxaa lala baxaya username & passwordkaaga\e[0m\n"
+printf "  \e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] sidoo kale sawiradaada & muuqaalada instgram kuugu jira \e[0m\n"
+printf "  \e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] Halka aad sugaysid Follow adna data ayaa lagaa xadayaa\e[0m\n"
 printf "  \e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m]\e[0m\e[1;93m Taabo Ctrl + C si aad u istaajiso \e[0m\n"
 printf "\n"
 sleep 5
@@ -170,7 +171,7 @@ username_id=$(curl -L -s 'https://www.instagram.com/'$user'' > getid && grep -o 
 
 selena="460563723"
 neymar="26669533"
-ariana="7719696"
+ariana="7719696" 
 beyonce="247944034"
 cristiano="173560420"
 kimkardashian="18428658"
