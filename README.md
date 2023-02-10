@@ -25,11 +25,11 @@ Toolka ugu fiican ee instgram account lagaaga jabsan karo <br> .
 
 `$ cd instgramfollow`
 
-`$ chmod +x insfollow.sh`
+`$ chmod +x instgramfollow.sh`
 
 `$ termux-wake-lock`
 
-`$ bash insfollow.sh`
+`$ bash instgramfollow.sh`
 
 ## • Fadlan join dheh Telegramkeena
 * https://t.me/somali_tech
