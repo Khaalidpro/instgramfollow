@@ -32,13 +32,3 @@ Toolka ugu fiican ee instgram Followerska kor loogu qaado.
 * https://t.me/somali_tech
 ---
 
-<p align="center">
-  Follow Me On
-</p>
-<p align="center">
-  <a href="https://t.me/somali_tech">
-    <img src="https://github.com/th3unkn0n/extra/blob/master/.img/yt.png" width="40" height="40">
-  </a>
-  <a href="https://t.me/somali_tech">
-    <img src="https://github.com/th3unkn0n/extra/blob/master/.img/ig.png" width="40" height="40">
-</p>
