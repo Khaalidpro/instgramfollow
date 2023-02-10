@@ -20,7 +20,7 @@ Toolka ugu fiican ee instgram Followerska kor loogu qaado.
 
 `$ git clone https://github.com/Khaalidpro/instgramfollow`
 
-`$ cd insfollow`
+`$ cd instgramfollow`
 
 `$ chmod +x insfollow.sh`
 
