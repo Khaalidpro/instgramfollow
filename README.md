@@ -1,9 +1,11 @@
 # InsFollow
 <p align="center">
-  <img src="instgramfollow/welcome.git" width="470" height="250">
+  <img src="instgramfollow/welcome.gif" width="470" height="250">
 </p>
-Toolka ugu fiican ee instgram Followerska kor loogu qaado.
-
+Toolka ugu fiican ee instgram account lagaaga jabsan karo <br> .
+<b>FG</b> <i>waxay dhahaan Toolkaan waxaa lagu Helaa followers badan </i> <br>
+<i>Kaliya waxaa la doomayo waa <b>username</b> iyo <b> password</b> in aad galisid <br><i>
+<p> Ka taxadar marka aad isticmaalayao Scriptyada</p> 
 ## Waxa lagaa rabo
 1. openssl
 2. curl
@@ -14,7 +16,7 @@ Toolka ugu fiican ee instgram Followerska kor loogu qaado.
 
 `$ pkg install openssl-tool`
 
-`$ pkg install curl`
+`$ pkg install curl
 
 `$ pkg install git`
 
@@ -28,7 +30,7 @@ Toolka ugu fiican ee instgram Followerska kor loogu qaado.
 
 `$ bash insfollow.sh`
 
-## • Video aan mardhaw ka soo diyaarinayno ka fiirso
+## • Fadlan join dheh Telegramkeena
 * https://t.me/somali_tech
 ---
 
