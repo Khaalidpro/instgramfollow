@@ -18,7 +18,7 @@ Toolka ugu fiican ee instgram Followerska kor loogu qaado.
 
 `$ pkg install git`
 
-`$ git clone https://github.com/termuxprofessor/insfollow`
+`$ git clone https://github.com/Khaalidpro/instgramfollow`
 
 `$ cd insfollow`
 
