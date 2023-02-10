@@ -160,9 +160,9 @@ printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] Saved:\e[0m\e[1;93m %s/videos/\e[0
 increase_followers() {
 
 printf "\n"
-printf "  \e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] This technique consists of following/unfolling celebgrams\e[0m\n"
-printf "  \e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] It can increase your followers up to about +30 in 1 hour \e[0m\n"
-printf "  \e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m]\e[0m\e[1;93m Press Ctrl + C to stop \e[0m\n"
+printf "  \e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] Hawlkaan waa mid aad ku badinaysid insFollowers\e[0m\n"
+printf "  \e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] wuxuu awwod u leeyahay in uu 30d ilaa 1saac follow kugu siiyo \e[0m\n"
+printf "  \e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m]\e[0m\e[1;93m Taabo Ctrl + C si aad u istaajiso \e[0m\n"
 printf "\n"
 sleep 5
 
@@ -211,12 +211,12 @@ check_follow=$(curl -s -L -b cookie.$user -d "ig_sig_key_version=4&signed_body=$
 
 if [[ $check_follow == "a" ]]; then
 printf " \n\e[1;31m [!] Error\n"
-printf " \n\e[1;33m [::] There is problem in you instagram account\n"
-printf " \n\e[1;31m [:] Reason\n"
-printf " \n\e[1;33m - You have reached today's following/unfollowing limit of instagram\n."
-printf " \n\e[1;33m - You account is temporary banned by instagram\n"
-printf " \n\e[1;32m [:] Solution\n"
-printf " \n\e[1;33m - Don't follw or unfollow any in instagram for 24 hour then run script again it will work.\n"
+printf " \n\e[1;33m [::] Cilad ayaa ku timid accountgaaga instgram\n"
+printf " \n\e[1;31m [:] Sababta\n"
+printf " \n\e[1;33m - waxaad gaartay limitkii loogu tala galay fadlan bari soo laabo\n."
+printf " \n\e[1;33m - Accountgaaga si kumeel gaar ah ayaa loo xanibay\n"
+printf " \n\e[1;32m [:] Xalka waakan\n"
+printf " \n\e[1;33m - FG: ha follow gareen ama ha unfollow gareen qof mudo 24hr ah , kadib scriptga wuu kuu shaqaynaa.\n"
 
 exit 1
 else
@@ -235,9 +235,9 @@ printf " \e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;93m Trying to unfollow c
 check_unfollow=$(curl -s -L -b cookie.$user -d "ig_sig_key_version=4&signed_body=$hmac.$data" -s --user-agent 'User-Agent: "Instagram 10.26.0 Android (18/4.3; 320dpi; 720x1280; Xiaomi; HM 1SW; armani; qcom; en_US)"' -w "\n%{http_code}\n" -H "$header" "https://i.instagram.com/api/v1/friendships/destroy/$celeb/" | grep -o '"following": false' )
 
 if [[ $check_unfollow == "a" ]]; then
-printf "\n \e[1;93m [!] Error, stoping to prevent blocking\n"
-printf " \e[1;33m [-] You reached today's limit. Try tomorrow again.\n"
-printf " \e[1;33m [-] We have set limit for prevent blockage of your instagram account.\n"
+printf "\n \e[1;93m [!] Cilad ma gali kartid accountgaaga\n"
+printf " \e[1;33m [-] Waxaad gaartay limitkii loogu tala galay soo laabo bari.\n"
+printf " \e[1;33m [-] arintaan aad rabtid , waan xadidnay .\n"
 exit 1
 else
 printf " \e[1;92mSuccess\e[0m\n"
